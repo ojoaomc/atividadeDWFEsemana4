@@ -40,9 +40,5 @@ li {
     border-radius: 0.5rem;
     padding: 0.6rem;
     background-color: #ddd;
-}
-
-.rotulo {
-    flex: 1;
     color: black;
 }

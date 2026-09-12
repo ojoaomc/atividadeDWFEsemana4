@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinControl</title>
     <link rel="stylesheet" href="./assets/css/estilo.css">
 </head>
+
 <body>
     <header>
         <h1 class="titulo">FinControl - Seu controle de finanças</h1>
+        <!-- FORMULÁRIO DE PESQUISA NO HEADER -->
+        <form class="form-pesquisa-header">
+            <div class="campo-busca">
+                <label for="busca-site" class="sr-only">Pesquisar no site:</label>
+                <input type="text" id="busca-site" name="busca" placeholder="Pesquisar funções, receitas...">
+            </div>
+        </form>
     </header>
     <section>
         <nav>
@@ -24,6 +33,7 @@
                     <a href="#">
                         <div class="opcao">
                             <div class="rotulo">Suas receitas</div>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -35,7 +45,18 @@
                 </li>
             </ul>
         </nav>
+        <form class="form-pesquisa-filtro">
+            <div class="campo-filtro">
+                <label for="filtro-tipo" class="sr-only">Filtrar por:</label>
+                <input type="text" id="filtro-tipo" name="filtro" placeholder="Ex: Despesas, Relatórios">
+            </div>
+
+            <button type="submit" class="botao-pesquisa">
+                Buscar
+            </button>
+        </form>
     </section>
     <footer>&copy, FinControl, 2026</footer>
 </body>
+
 </html>
