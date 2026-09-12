@@ -19,7 +19,30 @@ header {
     color: white;
     text-align: center;
 }
+/* menu lateral */
+nav {
+    height: 100vh;
+    width: 15rem;
+    background-color: #eee;
+    padding: 0.5rem;
+}
 
-.body {
-    background-color: #8e7cc3;
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.opcao {
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #ddd;
+}
+
+.rotulo {
+    flex: 1;
+    color: black;
 }
