@@ -42,3 +42,12 @@ li {
     background-color: #ddd;
     color: black;
 }
+
+.form-pesquisa-filtro {
+    position: absolute;
+    top: 5rem;            /* Ajusta a altura logo abaixo da barra roxa do header */
+    right: 1.5rem;        /* Gruda no canto superior direito */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
